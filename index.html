@@ -3,54 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Layout Completo con CSS Grid y Flexbox</title>
+    <title>Mi Página</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <aside class="sidebar">
-            <h2>Menú</h2>
-            <nav>
-                <a href="#">poleras (8)</a>
-                <a href="#">shorts (6)</a>
-                <a href="#">zapatillas (9)</a>
-                <a href="#">polerones (3)</a>
-            </nav>
-        </aside>
-        <main>
-            <div class="product-container">
-                <div class="product-card">
-                    <img src="css/img/polera.png" alt="producto 1">
-                    <h2>Polera (8)</h2>
-                    <p>$10.00</p>
-                    <button>Comprar</button>
-                </div>
-                <div class="product-card">
-                    <img src="css/img/short.avif" alt="Producto 2">
-                    <h2>short (6)</h2>
-                    <p>$20.00</p>
-                    <button>Comprar</button>
-                </div>
-                <div class="product-card">
-                    <img src="css/img/zapatillas.png" alt="Producto 3">
-                    <h2>zapatillas (9)</h2>
-                    <p>$30.00</p>
-                    <button>Comprar</button>
-                </div>
-                <div class="product-card">
-                    <img src="css/img/poleron.png" alt="Producto 4">
-                    <h2>polerones (3)</h2>
-                    <p>$40.00</p>
-                    <button>Comprar</button>
-                </div>
-        
+    <header>
+        <div class="logo">MiLogo</div>
+        <nav class="menu-lateral">
+            <a href="#seccion1">Inicio</a>
+            <a href="#seccion2">Galería</a>
+            <a href="#seccion3">Contacto</a>
+        </nav>
+    </header>
+    <main>
+        <section id="seccion1">
+            <h1>Bienvenido</h1>
+        </section>
+        <section id="seccion2">
+            <h2>Galería</h2>
+            <div class="galeria">
+                <img src="css/img/polera.png" alt="Imagen 1">
+                <img src="css/img/poleron.png" alt="Imagen 2">
+                <!-- Agrega más imágenes según sea necesario -->
             </div>
-        </main>
-        <footer class="footer">
-            <h3>
-                @miecomers
-            </h3>
-        </footer>
-    </div>
+        </section>
+        <section id="seccion3">
+            <h2>Contacto</h2>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, praesentium temporibus nulla, quibusdam quam magni saepe soluta, ad voluptates optio consequatur sit aut ex illum beatae distinctio. Ut, autem optio.
+            <img src="css/img/short.avif" alt="short">
+        </section>
+        
+    </main>
+    <footer>
+        <div class="contacto">
+            <p>Contacto: info@miweb.com</p>
+        </div>
+        <div class="social-media">
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+            <!-- Agrega más enlaces a redes sociales si lo deseas -->
+        </div>
+    </footer>
 </body>
 </html>
